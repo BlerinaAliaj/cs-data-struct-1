@@ -1,0 +1,58 @@
+Runtime Answers:
+
+1. The workload is determined by the length of the list, in this case the number
+   of animal crackers in the box. 
+
+2. Order the runtimes:
+    O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n) 
+
+Stacks and Queues Answers:
+
+1.1 Loading/unloading pallets onto a flatbed truck - stack data structure
+1.2 Putting bottle caps on bottles on assembly line - queue data structure
+1.3 Calculating math expression - stack data structure
+
+2. A queue would be more approprite when creating task lists or when implementing
+   breadth first search on trees. 
+
+3. Stacks are more appropriate when you want to see items in reverse, such as 
+   the 'go back' arrow in the browser, or when doing depth first search on trees
+
+Linked Lists Answers:
+
+1. The nodes of the list are the apple node (the box with "Apple" and 'next' 
+   compartment, the berry node and the cherry node.
+   The data for the apple node is "Apple", for the berry node is "Berry" and for
+   the cherry node is "Cherry".
+   The head of the linked list is the apple node. The linked list has no tail 
+   specified. The last node in the list is the cherry node. 
+
+2. Singly-linked lists specify the node that follows it and it can be transversed
+   from head to tail. Doubly-linked lists specify the node that precedes it as 
+   well as the node that follows it. It can be transversed in both directions.
+
+3. It is faster to append to the linked list if we keep track of the tail because
+   we would not need to transverse the list to find the last node in it. It changes
+   the runtime from O(n) (runtime to transverse the whole linked list) to O(1) 
+   which is the runtime to add a node after the tail node. 
+
+
+Trees Answers:
+
+1. Breadth First Search would visit the food node check if its data is 'burritos',
+   then it would visit its children (Italian, Indian, Mexican) and check if 
+   their data is 'burritos', then it would visit lasagna, pizza, tikka masala, 
+   saag, burritos. It would return when burritos is found. 
+
+2. The order of nodes in DFS algorithm is : food, Mexican, echiladas, tacos, burritos,
+   Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style.
+   It would stop at Chicago-style.
+
+3. Binary search tree nodes have only two children, a left child and a right child.
+   Each child of a node has a specific arrangement, the child with lower value
+   is placed on the left branch, the child with the higher value is placed on the
+   right branch. BSTs are good structures for searching if the tree is balanced
+   properly and have runtime of O(log n).
+
+
+
